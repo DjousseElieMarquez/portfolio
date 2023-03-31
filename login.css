@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Shantell+Sans:ital,wght@1,300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Shantell+Sans:ital,wght@1,300&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-image: url(loginbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: wheat;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.nav__bar ul li{
+    display: inline-flex;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: rgb(10, 5, 5);
+
+}
+.nav__bar ul li:hover{
+  background-color: orange;
+  color: white;
+  border-radius: 15px;
+  transition: 0.4s;
+}
+.nav__bar ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.container{
+    font-family: 'Shantell Sans', sans-serif;
+   background-color: rgb(187, 180, 180);
+   align-items: center;
+}  
+.logo{
+ padding-left: 1rem;
+}
+section{
+    margin-left: 500px;
+    margin-top: 150px;
+    line-height: 1.7;
+    border-color: grey;
+    line-height: 30px;
+    background-color: rgb(45, 25, 11);
+    height: 350px;
+    width: 600px;
+    border-radius: 15px;
+    padding-left: 70px;
+    padding-top: 40px;
+    opacity: 0.8;
+}
+section input{
+    height: 30px;
+    width: 400px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    font-family: 'Shantell', sans-serif;
+    font-weight: bold;
+}
+section h2{
+    color: rgb(23, 145, 23);
+    padding-left: 150px;
+}
+section button{
+    margin-left: 160px;
+    margin-top: 50px;
+    height: 40px;
+    width: 120px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    background-color: rgba(18, 18, 57, 0.986);
+    color: white;
+    cursor: pointer;
+}

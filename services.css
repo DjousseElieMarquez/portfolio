@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Shantell+Sans:ital,wght@1,300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Shantell+Sans:ital,wght@1,300&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+body{
+   
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: wheat;
+    background-image: url(loginbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.nav__bar ul li{
+    display: inline-flex;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: rgb(10, 5, 5);
+
+}
+.nav__bar ul li:hover{
+  background-color: orange;
+  color: white;
+  border-radius: 15px;
+  transition: 0.4s;
+}
+.nav__bar ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.container{
+    font-family: 'Shantell Sans', sans-serif;
+   background-color: rgb(187, 180, 180);
+   align-items: center;
+}  
+.logo{
+ padding-left: 1rem;
+}
